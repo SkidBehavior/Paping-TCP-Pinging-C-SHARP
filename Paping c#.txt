@@ -1,0 +1,11 @@
+  new Process
+            {
+                StartInfo =
+                {
+                    FileName = "paping.exe",
+                    Arguments = this.HOST.Text + " -p " + this.PORT.Text
+                }
+            }.Start();
+
+
+[make sure to change your text box code name to HOST.text, And ur other to PORt.text
